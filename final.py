@@ -18,7 +18,6 @@ wine_df.Calidad = np.where(wine_df.Calidad >= 6,'Good', 'Bad')
 
 wine_df.head()
 
-pip install pycaret
 
 from pycaret.classification import *
 exp_clf01 = setup(data = wine_df, target = 'Calidad', session_id = 123)
