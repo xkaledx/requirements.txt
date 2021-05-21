@@ -32,7 +32,6 @@ predict_model(et_model)
 
 save_model(et_model, model_name = 'extra_tree_model')
 
-pip install streamlit
 
 import pandas as pd
 
