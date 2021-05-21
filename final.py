@@ -37,10 +37,6 @@ import pandas as pd
 
 import numpy as np
 
-pip install pyngrok
-
-pip install pycaret
-
 from pycaret.classification import load_model, predict_model
 
 from pycaret.classification import load_model, predict_model
